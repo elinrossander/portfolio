@@ -1,0 +1,306 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    background-color: rgb(99, 144, 180);
+}
+
+.nav {
+    text-align: right;
+    position: relative;
+    width: 100%;
+    color: rgb(222, 227, 245);
+    font-family: "Roboto mono", "Cutive mono","SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    font-weight: bold;
+    font-size: 16px;
+    z-index: 12;
+    overflow-y: auto;
+    display: block;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(222, 227, 245);
+    padding: 1rem 1.5rem;
+}
+
+.resume {
+    font-size: 12px;
+    color: rgb(14, 243, 243);
+    padding-right: 0vW;
+    padding-left: 1vW;
+    margin-bottom: 4vW;
+    padding-bottom: 1VW;
+    padding-top: 1rem;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    text-decoration: none;
+
+}
+
+.resume a{
+    color: rgb(14, 243, 243);
+}
+
+.start {
+    padding-left: 3vW;
+    padding-top: -7vW;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+    min-height: 90vh;
+    margin: 0px auto;
+    padding-bottom: 50px;
+}
+
+.start h1{
+    font-size: 18px;
+    color: rgb(14, 243, 243);
+    font-family: "Roboto mono", "Cutive mono","SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    padding-left: 9VW;
+}
+
+.start h2 {
+    font-size: 70px;
+    font-family: 'Calibre', "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 'Roboto';
+    padding-left: 9VW;
+    font-weight: 600;
+    color: rgb(222, 227, 245);
+    line-height: 1;
+    margin-top: 10px;
+}
+
+.start h3 {
+    font-size: 70px;
+    padding-left: 9VW;
+    font-family: 'Calibre', "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 'Roboto';
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(179, 186, 216);
+    margin-top: -56px;
+}
+
+.start h4 {
+    font-size: 18px;
+    font-family: 'Calibre', "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 'Roboto';
+    padding-left: 9VW;
+    margin-top: 0px;
+    line-height: 0.4;
+    font-weight: 50;
+    display: block;
+    width: 40%;
+    color: rgb(179, 186, 216);
+}
+
+.center {
+    display: flex;
+    padding-left: 12vW;
+    padding-right: 4vW;
+    width: 70%;
+    padding-top: 20px;
+    float: left;
+    height: 520px;
+    width: 370px;
+}
+
+
+.about{
+    padding-left: 5vW;
+    padding-top: 10vW;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0px auto;
+    padding-bottom: 10px;
+}
+
+
+
+.headline h1{ 
+    font-size: 40px;
+    font-family: 'Calibre', "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 'Roboto';
+    padding-left: 12vW;
+    font-weight: 600;
+    color: rgb(204, 214, 246);
+    line-height: 1;
+    padding-top: 80px;
+    overflow: hidden;
+    vertical-align: bottom;
+}
+
+.hr{
+    margin-top: -15px;
+    color: black;
+}
+
+.info{
+    margin-top: 10px;
+}
+
+.info h1 {
+    content: "";
+    font-size: 18px;
+    color: rgb(14, 243, 243);
+    font-family: "Roboto mono", "Cutive mono","SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    padding-left: 9VW;
+}
+
+.info h2 {
+    font-size: 40px;
+    font-family: 'Calibre', "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 'Roboto';
+    font-weight: 600;
+    color: rgb(204, 214, 246);
+    line-height: 1;
+    margin-top: 10px;
+    margin: left;
+}
+
+.info h4{
+    font-size: 18px;
+    font-family: 'Calibre', "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 'Roboto';
+    padding-left: 9VW;
+    margin-top: 0px;
+    line-height: 0.4;
+    font-weight: 50;
+    display: block;
+    width: 100%;
+    color: rgb(179, 186, 216);
+}
+
+
+.info2 {
+    padding-top: 1vW;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0px auto;
+    padding-bottom: 15px;
+}
+
+.headline2 h1{
+    padding-top: 30vW;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Calibre', "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 'Roboto';
+    color: rgb(204, 214, 246);
+    line-height: 1;
+    overflow: hidden;
+    margin: left; 
+}
+
+.hey{
+    display: flex;
+    padding-right: 2vW;
+    padding-left: 8vW;
+    width: 600px;
+    height: 300px;
+    padding-top: 570px;
+    padding-bottom: 20px;
+    float: right; 
+    justify-content: space-around;
+}
+
+.info2 h1{
+font-size: 18px;
+color: rgb(14, 243, 243);
+font-family: "Roboto mono", "Cutive mono","SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+margin-top: 30em;
+text-align: left;
+padding-left: 10vW;
+}
+
+.info2 h2 {
+    font-size: 40px;
+    font-family: 'Calibre', "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 'Roboto';
+    font-weight: 600;
+    color: rgb(204, 214, 246);
+    line-height: 1;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 10VW;
+}
+
+.info2 h3 {
+    font-size: 70px;
+    padding-left: 10VW;
+    font-family: 'Calibre', "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 'Roboto';
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(179, 186, 216);
+    margin-top: 0px;
+}
+
+.info2 h4 {
+    font-size: 18px;
+    font-family: 'Calibre', "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 'Roboto';
+    padding-left: 10VW;
+    margin-top: 0px;
+    line-height: 0.4;
+    font-weight: 50;
+    display: block;
+    width: 100%;
+    color: rgb(179, 186, 216);
+}
+
+.contact {
+    padding-left: 8vW;
+    padding-right: 8vW;
+}
+
+.contact h1{
+    font-size: 40px;
+    font-family: 'Calibre', "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 'Roboto';
+    font-weight: 600;
+    color: rgb(204, 214, 246);
+    line-height: 1;
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 10VW;
+}
+
+.mail {
+    font-family: "Roboto mono", "Cutive mono","SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+    text-align: center;
+    padding-right: 1vW;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(14, 243, 243);
+    border-radius: 3px;
+    padding-left: 1vW;
+    padding-bottom: 1vW;
+    margin-bottom: 1.4vW;
+    padding-top: 1vW;
+    margin-left: 36vW;
+    margin-right: 36vW;
+    width: 10em;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+}
+
+.contact h1{
+    margin-top: 7em;
+    text-align: center;
+    padding-left: 2VW;
+}
+
+.contact p{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Calibre', "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, 'Roboto';
+    padding-left: 3VW;
+    margin-top: 20px;
+    line-height: 1.5;
+    font-weight: 50;
+    color: rgb(179, 186, 216);
+}
